@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EA020C3294D03D7003873D9 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA020C2294D03D7003873D9 /* SplashView.swift */; };
 		5EFBF4D0294BAD3200C3D5AF /* HabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFBF4CF294BAD3200C3D5AF /* HabitApp.swift */; };
 		5EFBF4D2294BAD3200C3D5AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFBF4D1294BAD3200C3D5AF /* ContentView.swift */; };
 		5EFBF4D4294BAD3400C3D5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFBF4D3294BAD3400C3D5AF /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EA020C2294D03D7003873D9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		5EFBF4CC294BAD3200C3D5AF /* Habit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFBF4CF294BAD3200C3D5AF /* HabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitApp.swift; sourceTree = "<group>"; };
 		5EFBF4D1294BAD3200C3D5AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EA020BF294D030E003873D9 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				5EA020C1294D034F003873D9 /* Model */,
+				5EA020C0294D0335003873D9 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		5EA020C0294D0335003873D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EA020C2294D03D7003873D9 /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EA020C1294D034F003873D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5EFBF4C3294BAD3200C3D5AF = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +77,7 @@
 		5EFBF4CE294BAD3200C3D5AF /* Habit */ = {
 			isa = PBXGroup;
 			children = (
+				5EA020BF294D030E003873D9 /* Splash */,
 				5EFBF4CF294BAD3200C3D5AF /* HabitApp.swift */,
 				5EFBF4D1294BAD3200C3D5AF /* ContentView.swift */,
 				5EFBF4D3294BAD3400C3D5AF /* Assets.xcassets */,
@@ -139,6 +166,7 @@
 			files = (
 				5EFBF4D2294BAD3200C3D5AF /* ContentView.swift in Sources */,
 				5EFBF4D0294BAD3200C3D5AF /* HabitApp.swift in Sources */,
+				5EA020C3294D03D7003873D9 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
