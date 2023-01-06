@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct SplashView: View {
+    
+    @State var state: SplashUIState = .loading
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        switch state {
+        case .loading:
+           Text("Loading")
+            
+        case .goToSignInScreen:
+            Text("carregar tela de login")
+            
+        case .goToHomeScreen:
+            Text("carregar tela principal")
+            
+        case .error(let msg):
+            Text("mostrar erro: \(msg)")
+         
+            
+        }
     }
 }
 
